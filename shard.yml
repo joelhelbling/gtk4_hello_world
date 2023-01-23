@@ -1,0 +1,17 @@
+name: gtk4_hello_world
+version: 0.1.0
+
+authors:
+  - Joel Helbling <joel@joelhelbling.com>
+
+targets:
+  gtk4_hello_world:
+    main: src/gtk4_hello_world.cr
+
+dependencies:
+  gtk4:
+    github: hugopl/gtk4.cr
+
+crystal: 1.7.1
+
+license: MIT
